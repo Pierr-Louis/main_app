@@ -1,0 +1,31 @@
+{
+  "DB_PATH": "R:/2 - Surveillance/surveillance_app/data/surveillance.db",
+  "IMG_PATH": "R:/2 - Surveillance/1 - Suivi altimetrique/3. Extraction données géomètre/.Programme/fond_filaire fond blanc.png",
+
+  "REAL_BOUNDS": [0.0, 254.39, 0.0, 168.88],
+  "M1_BOUNDS": [78.38, 158.95, 64.83, 158.40],
+
+  "DEFAULT_PRECISION": 0.1,
+
+  "INTERPOLATION_METHOD": "IDW",
+
+  "TRIANGULATION_METHOD": "IDW",
+  "IDW_POWER": 5.0,
+
+  "INTERPOLATION_RADIUS": 50.0,
+  "MAX_NEIGHBORS": 8,
+
+  "COLORMAP_SINGLE": "viridis",
+  "COLORMAP_COMPARE": "seismic",
+
+  "AVAILABLE_COLORMAPS": [
+    "viridis",
+    "seismic",
+    "nipy_spectral"
+  ],
+
+  "GRID_MAX_POINTS": 6000000,
+  "IDW_NEIGHBORS": 8,
+
+  "SYMMETRIC_COLORBAR": false
+}
